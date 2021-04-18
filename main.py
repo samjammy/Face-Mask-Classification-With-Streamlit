@@ -60,7 +60,7 @@ st.write("""
          # Face Mask Detection
          """
          )
-st.write("A Simple Web App to do face mask detection.")
+st.write("A Simple Web App to do face mask detection by Team Rocket")
 file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
 
 if file is None:
