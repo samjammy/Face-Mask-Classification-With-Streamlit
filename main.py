@@ -57,10 +57,10 @@ def face_detector(image, face_cascade):
 
 
 st.write("""
-         # Face Mask Classifier Using Streamlit
+         # Face Mask Detection
          """
          )
-st.write("A Simple Web App to do face mask classification.")
+st.write("A Simple Web App to do face mask detection.")
 file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
 
 if file is None:
